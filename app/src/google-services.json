@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "973784678060",
+    "firebase_url": "https://textdetection-b68f0.firebaseio.com",
+    "project_id": "textdetection-b68f0",
+    "storage_bucket": "textdetection-b68f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973784678060:android:0ba7d328bbd3bbc9",
+        "android_client_info": {
+          "package_name": "com.example.akshay.dictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973784678060-1l4i84nn30b8f9a85gvl38g0qhhfapl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-b0wudGQ1pVUHtzm8LKRlQ1yMk3IY8pI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

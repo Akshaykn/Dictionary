@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wala"
+    tools:context="com.example.akshay.dictionary.MainActivity">
+
+
+    <EditText
+        android:id="@+id/search_Word"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/search_word"
+        android:inputType="textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textPersonName"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp" />
+
+    <TextView
+        android:id="@+id/definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/colorAccent"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/search_Word"
+        android:layout_alignEnd="@+id/search_Word"
+        android:background="@mipmap/search_icon" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent2"
+        android:fontFamily="monospace"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="60dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</RelativeLayout>
